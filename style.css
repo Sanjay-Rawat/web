@@ -1,0 +1,23 @@
+.text-bold{
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
+
+.text-gray{
+    color: gray;
+}
+
+#head1{
+    color: aqua;
+}
+
+
+b{
+    font-size: 300px;
+}
+
