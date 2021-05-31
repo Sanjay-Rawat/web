@@ -55,29 +55,47 @@
 // const post =["sanjay","63426743","fhj"]
 
 
-const posts = [
-  {
-    text: 'post 1',
-    is_deleted: true,
-  },
-  {
-    text: 'post 2',
-    is_deleted: false,
-  },
-  {
-    text: 'post 3',
-    is_deleted: false,
-  },
-];
+// const posts = [
+//   {
+//     text: 'post 1',
+//     is_deleted: true,
+//   },
+//   {
+//     text: 'post 2',
+//     is_deleted: false,
+//   },
+//   {
+//     text: 'post 3',
+//     is_deleted: false,
+//   },
+// ];
 
-const result = posts.filter(fiterPost);
-console.log(result);
+// const result = posts.filter(fiterPost);
+// console.log(result);
 
-function fiterPost(post) {
-  if (post.is_deleted == true) {
-    return false;
-  } else {
-    return true;
-  }
-  // return post.is_deleted == true ? false : true;
-}
+// function fiterPost(post) {
+//   if (post.is_deleted == true) {
+//     return false;
+//   } else {
+//     return true;
+//   }
+//   // return post.is_deleted == true ? false : true;
+// }
+
+
+
+//========================================01/06/2021=================================================
+
+// # == vs ===
+// # Switch Case
+// # Break
+// # Continue
+// # Logical Operators (&&, || , !)
+// # Object Operations(add,delete,update)
+// # Object Destructuring
+// # Array Destructuring
+//========================================02/06/2021=================================================
+//========================================03/06/2021=================================================
+//========================================04/06/2021=================================================
+//========================================05/06/2021=================================================
+//========================================06/06/2021=================================================
