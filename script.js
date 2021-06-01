@@ -85,15 +85,108 @@
 
 
 //========================================01/06/2021=================================================
-
 // # == vs ===
+// let a=20;
+// let b='20';
+// console.log(a==b)
+// console.log(a===b)
+
+
 // # Switch Case
+// switch(a){
+//     case 20:
+//         console.log("value is 20");
+//         break;
+//     case 30:
+//         console.log("value is 30")
+//         break;
+//     case 40:
+//         console.log("value is 40")
+//         break;
+// }
+
 // # Break
+
+// for(let i=0;i<5;i++){
+//     if(i==4){
+//         break;
+//     }
+//     console.log(i)
+// }
+
 // # Continue
+// for(let i=0;i<=5;i++){
+//     if(i==4){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
 // # Logical Operators (&&, || , !)
+// if(true && true){ 
+//     console.log("if block")
+// }else{
+//     console.log("else block")
+// }
+
+// if(true || true){ 
+//     console.log("if block")
+// }else{
+//     console.log("else block")
+// }
+
+
+// let isBulbOn = true;
+
+// function toggleBulb(){
+//     isBulbOn = !isBulbOn
+//     console.log(isBulbOn)
+// }
+
 // # Object Operations(add,delete,update)
+let person={
+    firstName:"sanjay",
+    lastName:"rawat",
+    age:24,
+    flag:true
+
+}
+// console.log(person["firstName"])
+// console.log(person.firstName)
+
+// person["age"]=25;
+// person.age=25;
+// console.log(person)
+
+// person.firstName="abc xyz"
+// console.log(person)
+
+
+// delete person.firstName;
+// console.log(person)
+
+// #spread Operator in Objects
+// let updatedPerson = {...person, age:25}
+// console.log(updatedPerson)
+
 // # Object Destructuring
+// console.log(person.firstName)
+// console.log(person.lastName)
+// console.log(person.age)
+// const {firstName,lastName,age} = person
+// console.log(firstName)
+// console.log(lastName)
+// console.log(age)
+// const {firstName,...xyz } = person
+// console.log(xyz)
+// console.log(firstName)
 // # Array Destructuring
+
+// const names=["subhash","rawat","pankaj","sunil"];
+// const [firstName, ...restName] = names;
+// console.log(restName)
+
+// # Dates
 //========================================02/06/2021=================================================
 //========================================03/06/2021=================================================
 //========================================04/06/2021=================================================
