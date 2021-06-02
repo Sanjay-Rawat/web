@@ -186,8 +186,47 @@ let person={
 // const [firstName, ...restName] = names;
 // console.log(restName)
 
-// # Dates
+
 //========================================02/06/2021=================================================
+// # Dates
+
+// let d = new Date(); //string Date
+// console.log(d) 
+// console.log(d.getDate())  //  date
+// console.log(d.getDay()) // index of day where sunday is 0 and monday is 1.....
+// console.log(d.getFullYear()) //  year
+// console.log(d.getHours()) // hour
+// console.log(d.getMilliseconds()) // milliseconds
+// console.log(d.getMinutes()) // minute
+// console.log(d.toISOString())
+// console.log(d.toUTCString())
+
+// console.log(d.getHours())
+// d.setHours(12)
+// console.log(d.getHours())
+// validTill= d.setHours(d.getHours() +1) //
+
+// console.log(Date.now()) // Timestamp DateTime
+
+const timeStamp=1622596307856;
+// const abc = new Date(timeStamp)
+// console.log(abc.getDate())
+
+// # Event Handling
+    function eventHandler(event){
+        console.log(event)
+        // event.preventDefault();
+
+        // console.log("Event Happen");
+    }
+
+    function onBodyInit(){
+        console.log("DOM is ready")
+    }
+
+    function onDivScroll(){
+        console.log("Div is scrolling")
+    }
 //========================================03/06/2021=================================================
 //========================================04/06/2021=================================================
 //========================================05/06/2021=================================================
