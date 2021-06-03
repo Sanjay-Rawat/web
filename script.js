@@ -73,7 +73,7 @@
 // const result = posts.filter(fiterPost);
 // console.log(result);
 
-// function fiterPost(post) {
+// function filterPost(post) {
 //   if (post.is_deleted == true) {
 //     return false;
 //   } else {
@@ -144,13 +144,13 @@
 // }
 
 // # Object Operations(add,delete,update)
-let person={
-    firstName:"sanjay",
-    lastName:"rawat",
-    age:24,
-    flag:true
+// let person={
+//     firstName:"sanjay",
+//     lastName:"rawat",
+//     age:24,
+//     flag:true
 
-}
+// }
 // console.log(person["firstName"])
 // console.log(person.firstName)
 
@@ -208,26 +208,111 @@ let person={
 
 // console.log(Date.now()) // Timestamp DateTime
 
-const timeStamp=1622596307856;
+// const timeStamp=1622596307856;
 // const abc = new Date(timeStamp)
 // console.log(abc.getDate())
 
 // # Event Handling
-    function eventHandler(event){
-        console.log(event)
+    // function eventHandler(event){
+    //     document.getElementById("abc").innerHTML="something"
+    //     console.log(event)
         // event.preventDefault();
 
         // console.log("Event Happen");
-    }
+    // }
 
-    function onBodyInit(){
-        console.log("DOM is ready")
-    }
+    // function onBodyInit(){
+    //     console.log("DOM is ready")
+    // }
 
-    function onDivScroll(){
-        console.log("Div is scrolling")
-    }
+    // function onDivScroll(){
+    //     console.log("Div is scrolling")
+    // }
 //========================================03/06/2021=================================================
+// #How to access html tags through JS?
+// function myFunction() {
+    // document.getElementById("demo").innerHTML = "<b>this is a bold text</b> <p>this is normal text</p>";
+    // document.getElementById("demo").innerText = "this is text value";
+    // console.log( document.getElementsByTagName("p"))
+    // document.getElementsByTagName("p")[1].innerText = "this is text value";
+//  const name =document.getElementsByName("firstName")[0];
+//  name.value="test"
+//  name.remove()
+ 
+// name.values="changes value"
+
+// let abc = document.querySelector("#demo")
+// abc.innerHTML= "<b>bold text</b>"
+// }
+
+
+
+
+// #eventOdd
+
+// const num= "fdsafdsa";
+// const result = isEven(num)
+// console.log(result)
+
+
+// function isEven(num){
+//     // if(num%2==0){ // when num is even
+//     //     return 'even'
+//     // }
+//     // return 'odd'
+//     if( typeof num != 'number'){
+//         return 'Not a valid Number'
+//     }
+//     return num%2==0 ? 'even' : 'odd';
+// }
+
+// let  arr =[12,67,54,98,40,33];
+//  for even => even-5
+//  for odd => odd-5
+
+// for( let i=0; i<arr.length;  i++ ){
+//     if(arr[i]%2==0){ //when element is event
+//         arr[i]= arr[i]-5;
+//     }else{ // when element is odd
+//         arr[i]= arr[i]+5;
+//     }
+// }
+
+
+// function abc(){
+
+// }
+// const abc = function(){
+
+// }
+// const abc = () =>{
+
+// }
+
+
+// let result  =arr.map( (element)=>{
+//     return element % 2 ==0 ? element -5 : element +5
+    // if(element % 2==0){
+    //     element = element -5;
+    // }else{
+    //     element = element +5
+    // }
+    // return element
+// })
+
+// console.log(result)
+
+
+
+
+
+  
+
+
+
+
+// #
+
 //========================================04/06/2021=================================================
 //========================================05/06/2021=================================================
 //========================================06/06/2021=================================================
