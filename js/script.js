@@ -302,17 +302,55 @@
 
 // console.log(result)
 
-
-
-
-
-  
-
-
-
-
-// #
-
 //========================================04/06/2021=================================================
+// function onVideoPlay(){
+//     console.log("video has started")
+// }
+
+
+// function playAudio(){
+//     var audio = new Audio('in.aac');
+//     audio.play();
+// }
+
+
+// function appendElement(){
+//     var result  = document.createElement("h1");  
+//     result.innerText="This is a h1 tag"
+//     document.getElementById('abc').appendChild(result)
+//     // console.log(result)
+//     // node.innerText="This is a bold text";
+//     // document.getElementById("abc").appendChild(node)
+// }
+
+
+// let numbers = [32,54,67,43,98];
+
+
+// const result = numbers.map(function xyz(num){
+//     if(num%2==0){
+//         return 'even'
+//     }else{
+//         return 'odd'
+//     }
+// })
+// console.log(result)
+
+
+// input :  6
+// output : 6*5*4*3*2*1
+
+
+// const num= 5;
+// let result=1; 
+// for(let i=1; i<=num; i++){
+//     result = result * i
+// }
+// console.log(result)
+
+
+console.log("changed value")
+
+
 //========================================05/06/2021=================================================
 //========================================06/06/2021=================================================
