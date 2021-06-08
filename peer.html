@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+</head>
+
+<body onload="setPeerId()">
+    <p id="aboutPeer"></p>
+    <input type="text" placeholder="enter target id" id="peerid" />
+    <button onclick="connect()">Connect</button>
+    <button onclick="sendMessage()">Send</button>
+    <script>
+        var peer, connn;
+        function setPeerId() {
+            peer = new Peer();
+            setTimeout(() => {
+                document.getElementById("aboutPeer").innerHTML = `Your peer id is <b>${peer.id}</b>`
+            }, 1000)
+
+            peer.on('connection',  (conn)=> {
+                console.log(`You are connected with ${conn.id}`)
+                connn =conn;
+                conn.on('data',  (data)=> {
+                    console.log(data);
+                });
+            })
+        }
+        function connect() {
+                    connn = peer.connect(document.getElementById("peerid").value);
+                    connn.on('open', function () {
+                        console.log(`You are connected with ${connn.id}`)
+                    });
+                    connn.on('data',  (data)=> {
+                    console.log(data);
+                });
+                }
+        function sendMessage(){
+            connn.send(document.getElementById("peerid").value);
+        }
+
+
+    </script>
+</body>
+
+</html>
