@@ -362,3 +362,73 @@
 
 // }
 // console.log(sum)
+
+
+// console.log("here 1")
+// setTimeout(()=>{
+//     console.log("here 3")
+// },0);
+// console.log("here 4")
+
+
+//#Promises
+
+// const abc = new Promise(promiseHandler)
+
+// abc.then(thenBlockHandler).catch(thenBlockHandler)
+
+
+// function promiseHandler(resolve,reject){
+//     // resolve({name:"sanjay"})
+//     reject("This is just a error")
+// }
+
+
+// function thenBlockHandler(inputData){
+//     console.log(inputData)
+// }
+
+
+// const obj = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{  
+//         // resolve("this promise is resolved");
+//         reject("this promise is rejected")
+//     },1000)
+  
+// })
+
+// obj.then(data=>{
+//     console.log(data)
+// }).catch(err=>{
+//     console.log(err)
+// })
+
+
+//  #Async/Await
+
+
+//  async function abc(){
+//     console.log("here1")
+//     // let result  = await obj; // this line is taking 1 sec to 
+    
+//     try{
+//         var result  = await obj; 
+//     }catch(err){
+//         console.log(err)
+//     }
+    
+//     console.log(result)
+//     console.log("here2")
+
+// }
+
+// abc()
+
+
+// try{
+//     console.log(user.address.city);
+// }catch(error){
+//     alert(error)
+// }
+
+// alert("hi tehr")

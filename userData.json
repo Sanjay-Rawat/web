@@ -1,0 +1,9 @@
+{
+    "name":"sanjay",
+    "abc":"xyz",
+    "friendsList":["id1","id2","id3"],
+    "address":{
+        "city":"almora",
+        "state":"uk"
+    }
+}
